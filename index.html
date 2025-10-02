@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>阳光洗衣馆</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; color:#333;}
+    header {background:#2a9d8f; color:#fff; padding:40px 20px; text-align:center;}
+    header h1 {margin:0; font-size:2.2em;}
+    header p {margin:10px 0 0; font-size:1.2em;}
+    nav {background:#21867a; padding:10px; text-align:center;}
+    nav a {color:#fff; margin:0 15px; text-decoration:none; font-weight:bold;}
+    nav a:hover {text-decoration:underline;}
+    .container {max-width:1000px; margin:30px auto; padding:0 20px;}
+    .card {background:#f9f9f9; padding:20px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.05); margin-bottom:20px;}
+    footer {background:#222; color:#ccc; text-align:center; padding:20px; margin-top:40px;}
+    footer a {color:#2a9d8f; text-decoration:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>阳光洗衣馆</h1>
+    <p>干净 · 快捷 · 贴心</p>
+  </header>
+
+  <nav>
+    <a href="#services">服务项目</a>
+    <a href="#price">价格表</a>
+    <a href="#contact">联系我们</a>
+  </nav>
+
+  <main class="container">
+    <section id="services" class="card">
+      <h2>服务项目</h2>
+      <ul>
+        <li>日常衣物清洗</li>
+        <li>高档衣物干洗</li>
+        <li>床单被罩清洗</li>
+        <li>窗帘沙发布艺清洁</li>
+        <li>上门收取/送回</li>
+      </ul>
+    </section>
+
+    <section id="price" class="card">
+      <h2>价格表</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr><th>项目</th><th>价格</th></tr>
+        <tr><td>衬衫</td><td>¥10/件</td></tr>
+        <tr><td>西装</td><td>¥35/套</td></tr>
+        <tr><td>羽绒服</td><td>¥50/件</td></tr>
+        <tr><td>床单/被罩</td><td>¥25/件</td></tr>
+      </table>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>联系我们</h2>
+      <p>📍 地址：XX市XX区XX路88号</p>
+      <p>📞 电话：123-4567-8900</p>
+      <p>⏰ 营业时间：每天 8:00 - 22:00</p>
+      <p>💬 微信：laundry123</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> 阳光洗衣馆 | 由 GitHub Pages 免费托管</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+Create index.html
